@@ -1,0 +1,57 @@
+<svg width="800" height="920" viewBox="0 0 800 920" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">夜色中的城市與街道</title>
+<desc id="desc">深藍色天空、橘色霓虹街燈、店面與雨後反光的風格化插畫</desc>
+<defs>
+  <linearGradient id="sky" x1="90" y1="20" x2="700" y2="920" gradientUnits="userSpaceOnUse"><stop stop-color="#112D52"/><stop offset="0.45" stop-color="#24355B"/><stop offset="1" stop-color="#BA5D4C"/></linearGradient>
+  <linearGradient id="road" x1="400" y1="525" x2="400" y2="920" gradientUnits="userSpaceOnUse"><stop stop-color="#263144"/><stop offset="1" stop-color="#0B1C31"/></linearGradient>
+  <linearGradient id="buildL" x1="0" y1="200" x2="340" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#16233C"/><stop offset="1" stop-color="#11182E"/></linearGradient>
+  <linearGradient id="buildR" x1="480" y1="240" x2="800" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#2B314F"/><stop offset="1" stop-color="#171C34"/></linearGradient>
+  <linearGradient id="reflection" x1="390" y1="595" x2="400" y2="920" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB27A" stop-opacity=".55"/><stop offset="1" stop-color="#FFB27A" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#FFC38E" stop-opacity=".58"/><stop offset="1" stop-color="#FFC38E" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="19"/></filter>
+</defs>
+<rect width="800" height="920" fill="url(#sky)"/>
+<circle cx="586" cy="170" r="142" fill="url(#glow)"/>
+<circle cx="586" cy="170" r="28" fill="#FFCFAB"/>
+<g opacity=".6" fill="#A6C2D7"><circle cx="160" cy="98" r="1.7"/><circle cx="292" cy="162" r="1"/><circle cx="400" cy="101" r="1.8"/><circle cx="702" cy="87" r="1.4"/><circle cx="735" cy="259" r="1.5"/><circle cx="352" cy="230" r="1.3"/></g>
+<!-- horizon city -->
+<path d="M0 492H82V405H116V445H151V377H182V430H228V389H251V464H302V402H329V458H377V415H401V478H452V412H480V469H531V391H570V455H622V400H651V459H707V415H741V455H800V620H0V492Z" fill="#202D48"/>
+<g fill="#D8A579" opacity=".55"><rect x="97" y="430" width="9" height="12"/><rect x="164" y="396" width="9" height="13"/><rect x="241" y="412" width="6" height="16"/><rect x="309" y="428" width="9" height="13"/><rect x="544" y="423" width="12" height="14"/><rect x="633" y="424" width="10" height="13"/><rect x="725" y="433" width="8" height="16"/></g>
+<!-- street road -->
+<path d="M299 550L500 550L800 920H0L299 550Z" fill="url(#road)"/>
+<path d="M364 550H426L515 920H278L364 550Z" fill="url(#reflection)" opacity=".42"/>
+<!-- buildings left -->
+<path d="M0 172L198 208V610L0 737V172Z" fill="url(#buildL)"/>
+<path d="M0 218L173 242V598L0 699" stroke="#3D5066" stroke-width="3"/>
+<path d="M0 331L170 345M0 467L175 474" stroke="#324761" stroke-width="5"/>
+<rect x="40" y="274" width="70" height="42" rx="2" fill="#F0AD7E" opacity=".7"/><rect x="45" y="280" width="26" height="30" fill="#34465F"/><rect x="77" y="280" width="27" height="30" fill="#34465F"/>
+<rect x="21" y="387" width="126" height="69" rx="3" fill="#F6A679" opacity=".86"/><rect x="31" y="397" width="108" height="50" fill="#23354D"/><path d="M31 417H139M85 397V447" stroke="#EFB998" stroke-width="3"/>
+<path d="M0 519L195 541L195 553L0 559V519Z" fill="#EA8069"/>
+<rect x="70" y="473" width="66" height="30" rx="4" fill="#F5BD8F"/><rect x="77" y="482" width="53" height="11" rx="2" fill="#CE685B"/>
+<rect x="17" y="584" width="136" height="98" fill="#23334B"/><path d="M24 591H150V674H24V591Z" fill="#BC6156" opacity=".36"/>
+<!-- left neon -->
+<rect x="205" y="281" width="51" height="179" rx="5" fill="#F58F87"/><rect x="213" y="289" width="35" height="164" rx="2" fill="#462D49"/>
+<path d="M230 307V435" stroke="#FDB9A2" stroke-width="4" stroke-dasharray="15 10"/>
+<path d="M230 460V555" stroke="#AF9A8C" stroke-width="4"/>
+<!-- buildings right -->
+<path d="M624 214L800 176V733L609 607L624 214Z" fill="url(#buildR)"/>
+<path d="M643 247L800 216M632 382L800 361M625 511L800 502" stroke="#4E536C" stroke-width="5"/>
+<rect x="686" y="277" width="89" height="67" fill="#9F6F64"/><rect x="692" y="284" width="76" height="52" fill="#302E49"/><path d="M730 286V335M692 310H769" stroke="#E0A38B" stroke-width="4"/>
+<rect x="681" y="406" width="98" height="79" fill="#F0B48D"/><rect x="688" y="414" width="83" height="62" fill="#3B344B"/><path d="M688 439H771" stroke="#E4A18D" stroke-width="4"/>
+<path d="M608 529L800 505V557L607 553Z" fill="#D56A63"/>
+<rect x="665" y="579" width="111" height="121" fill="#313C51"/><path d="M674 588H767V682H674V588Z" fill="#8F615B" opacity=".4"/>
+<!-- hanging sign -->
+<path d="M597 299H663" stroke="#8795A0" stroke-width="5"/><rect x="566" y="286" width="55" height="117" rx="5" fill="#F2B486"/><rect x="574" y="294" width="39" height="101" fill="#503A4F"/><g stroke="#FFD1AE" stroke-width="3"><path d="M587 309V380M600 316V375"/></g>
+<!-- street lamp -->
+<path d="M515 495V386C515 369 526 359 547 359H572" stroke="#1E2C42" stroke-width="11"/>
+<rect x="565" y="352" width="42" height="15" rx="5" fill="#FFD4A4"/><circle cx="583" cy="369" r="83" fill="url(#glow)" opacity=".85"/>
+<!-- distant pedestrian -->
+<circle cx="435" cy="535" r="9" fill="#161D2A"/><path d="M428 546Q436 537 444 547L453 604H418L428 546Z" fill="#161D2A"/><path d="M427 596L419 633M444 596L451 633" stroke="#141D2B" stroke-width="9" stroke-linecap="round"/>
+<circle cx="339" cy="554" r="7" fill="#1B2331"/><path d="M332 562H346L348 599H329L332 562Z" fill="#192333"/><path d="M335 593L330 624M342 594L346 624" stroke="#192333" stroke-width="7" stroke-linecap="round"/>
+<!-- crosswalk -->
+<g fill="#DBCBBA" opacity=".57"><path d="M288 698L330 687L319 717L255 731Z"/><path d="M373 679L410 671L417 706L365 717Z"/><path d="M460 676L495 670L525 710L476 718Z"/><path d="M548 686L576 682L620 738L573 728Z"/></g>
+<!-- wet reflections -->
+<g filter="url(#blur)" opacity=".37"><path d="M118 600L164 592L130 895L45 908Z" fill="#F8A878"/><path d="M688 602L738 588L789 916L715 920Z" fill="#FF9E81"/><path d="M394 658L439 652L471 892L367 920Z" fill="#FFE0B0"/></g>
+<g stroke="#A6B5BD" stroke-width="4" stroke-linecap="round" opacity=".23"><path d="M90 760L264 733"/><path d="M230 817L390 794"/><path d="M544 769L670 788"/><path d="M340 875L591 884"/><path d="M89 904L251 887"/></g>
+<rect y="742" width="800" height="178" fill="#081624" opacity=".18"/>
+</svg>
